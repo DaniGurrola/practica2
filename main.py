@@ -14,7 +14,7 @@ def main(page: ft.Page):
 
     nombre_evento = ft.TextField(
         label="Nombre del evento",
-        hint_text="Ej: Jornada Tecnológica 2026"
+        hint_text="Ej: Reunion con maestros"
     )
 
     tipo_evento = ft.Dropdown(
